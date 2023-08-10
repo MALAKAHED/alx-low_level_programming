@@ -1,11 +1,10 @@
 #include <stdio.h>
-/*
-* main - The entry point
+/**
+*main - Entry point
 *description : A C language program prints a sentence using the puts command
-*return 0
+*Return: Always 0 (Success)
 */
 int main(void)
-/* main - The entry point*/
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);
