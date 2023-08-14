@@ -15,5 +15,5 @@ putchar(x);
 }
 x++;
 }
-putchar('\n');
+putchar(10);
 }
