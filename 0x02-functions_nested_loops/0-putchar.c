@@ -6,14 +6,14 @@
 */
 int main(void)
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
+int main(void)
+{
+char arr[] = "_putchar";
+int ml;
+for (ml = 0; ml < 8; ml++)
+{
+_putchar(arr[ml]);
+}
+_putchar('\n');
 return (0);
 }
