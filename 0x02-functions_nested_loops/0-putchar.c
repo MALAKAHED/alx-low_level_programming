@@ -6,10 +6,14 @@
 */
 int main(void)
 {
-char arr[8] = "_putchar";
-int ml;
-for (ml = 0; ml < 8; ml++)
-_putchar(arr[ml]);
-_putchar('\n');
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
 return (0);
 }
