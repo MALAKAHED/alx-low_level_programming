@@ -7,7 +7,12 @@
 */
 int main(void)
 {
-_putchar("_putchar");
+char arr[] = "_putchar";
+int ml;
+for (ml = 0; ml < 8; ml++)
+{
+_putchar(arr[ml]);
+}
 _putchar('\n');
 return (0);
 }
