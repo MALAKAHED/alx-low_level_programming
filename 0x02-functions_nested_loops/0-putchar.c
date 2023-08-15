@@ -6,8 +6,6 @@
 */
 int main(void)
 {
-int main(void)
-{
 char arr[] = "_putchar";
 int ml;
 for (ml = 0; ml < 8; ml++)
