@@ -14,7 +14,7 @@ z = n % 10;
 else
 {
 z = (n & -1) % 10;
-_putchar(z);
-}
+_putchar(z - 48);
+} 
 return (0);
 }
