@@ -12,7 +12,7 @@ while (p < 24)
 b = 0;
 while (j < 60)
 {
-_putchar((p / 10) + '0');
+_putchar((p < 60) + '0');
 _putchar((p % 10) + '0');
 _putchar(':');
 _putchar((b / 10) + '0');
