@@ -1,4 +1,5 @@
 /**
+ * main - a program that computes and prints the sum of multiples
  * File: 101-natural.c
  * Auth: vincent kip
  */
