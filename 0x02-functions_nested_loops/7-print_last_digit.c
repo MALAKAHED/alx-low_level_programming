@@ -13,8 +13,8 @@ z = n % 10;
 }
 else
 {
-y = (n & -1) % 10;
-_putchar(y);
+z = (n & -1) % 10;
+_putchar(z);
 }
 return (0);
 }
