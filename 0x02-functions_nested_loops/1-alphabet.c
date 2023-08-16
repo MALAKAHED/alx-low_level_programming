@@ -3,7 +3,7 @@
 *main - main Entry point
 *description:function prints the alphabet in lowercase, followed by new line
 */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 char s;
 for (s = 'a'; s <= 'z'; s++)
