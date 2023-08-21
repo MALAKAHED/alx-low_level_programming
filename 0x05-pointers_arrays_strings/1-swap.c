@@ -7,9 +7,8 @@
  */
 void swap_int(int *a, int *b)
 {
-int a, b;
-a = 77;
-b = 88;
-printf("a=%p, b=%p", *b, *a);
-return (0);
+int x;
+x = *a;
+*a = *b;
+*b = x;
 }
