@@ -9,10 +9,10 @@ int x;
 while (s[x])
 {
 x++;
-}
 while (x--)
 {
 putchar (s[x]);
+}
 }
 putchar ('\n');
 }
