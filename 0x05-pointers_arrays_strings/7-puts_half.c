@@ -9,7 +9,7 @@ int x;
 for (x = 0; str[x] != '\0'; x++)
 {
 }
-x++
+x++;
 for (x /= 2; str[x] != '\0'; x++)
 {
 putchar(str[x]);
