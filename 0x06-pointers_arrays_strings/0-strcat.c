@@ -13,9 +13,9 @@ while (dest[x] != '\0')
 {
 x++;
 }
-for (y = 0; src[y] != 0; y++)
+while (src[j] != '\0')
 {
-dest[x] = src[y]
+dest[x] = src[y];
 x++;
 y++;
 }
