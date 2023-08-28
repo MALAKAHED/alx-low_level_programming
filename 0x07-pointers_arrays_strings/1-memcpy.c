@@ -8,10 +8,13 @@
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+destination memory area.
+int x = 0;
 int i = n;
-for (int r = 0; r < i; r++)
+for (; x < i; x++)
 {
-dest[r] = src[r];
+dest[x] = src[x];
+n--;
 }
 return (dest);
 }
