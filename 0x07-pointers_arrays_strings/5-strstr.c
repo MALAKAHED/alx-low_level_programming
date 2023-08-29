@@ -15,7 +15,7 @@ while (*L == *P && *P != '\0')
 {
 L++;
 P++;
-{
+}
 if (*P == '\0')
 return (haystack);
 }
