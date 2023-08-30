@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_number - prints an integer
  * @n: integer to be printed
@@ -10,7 +11,8 @@ if (n < 0)
 {
 n1 = -n;
 _putchar('-');
-} else
+}
+else
 {
 n1 = n;
 }
