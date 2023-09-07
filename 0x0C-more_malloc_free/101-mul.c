@@ -5,7 +5,7 @@
 /**
 * is_digit - checks if a string contains a non-digit char
 * @s: string to be evaluated
-* Return: 0 if a non-digit is found, 1 otherwise
+* Return:always 0
 */
 int is_digit(char *s)
 {
@@ -21,7 +21,7 @@ return (1);
 /**
 * _strlen - returns the length of a string
 * @s: string to evaluate
-* Return: the length of the string
+* Return: always 0
 */
 int _strlen(char *s)
 {
@@ -34,7 +34,7 @@ return (i);
 }
 /**
  * errors - handles errors for main
-*/
+ */
 void errors(void)
 {
 printf("Error\n");
@@ -44,7 +44,7 @@ exit(98);
 * main - multiplies two positive numbers
 * @argc: number of arguments
 * @argv: array of arguments
-* Return: always 0 (Success)
+* Return: always 0
 */
 int main(int argc, char *argv[])
 {
