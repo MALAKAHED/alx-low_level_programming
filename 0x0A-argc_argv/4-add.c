@@ -1,52 +1,41 @@
+#include"main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
 #include <string.h>
 /**
-* check_num - check - string there are digit
-* @str: array str
-* Return: Always 0 (Success)
-*/
-int check_num(char *str)
-{
-unsigned int count;
-count = 0;
-while (count < strlen(str) {
-if (!isdigit(str[count]))
-{
-return (0);
-}
-count++;
-}
-return (1);
-}
-/**
- * main - Print the name of the program
-* @argc: Count arguments
-* @argv: Arguments
-*
-* Return: Always 0 (Success)
+* main - prints the sum of args poistive numbers
+* @argc: argument count
+* @argv: argument vector
+* Return: Alawys 0
 */
 int main(int argc, char *argv[])
 {
-int count;
-int str_to_int;
-int sum = 0;
-count = 1;
-while (count < argc)
+int i;
+unsigned int k, sum = 0;
+char *e;
+if (argc > 1)
 {
-if (check_num(argv[count]))
+for (i = 1; i < argc; i++)
 {
-str_to_int = atoi(argv[count]);
-sum += str_to_int;
-}
-else
+e = argv[i];
+for (k = 0; k < strlen(e); k++)
+{
+if (e[k] < 48 || e[k] > 57)
 {
 printf("Error\n");
 return (1);
 }
-count++;
+}
+}
+}
+sum += atoi(e);
+e++;
 }
 printf("%d\n", sum);
+}
+else
+{
+printf("0\n");
+}
 return (0);
 }
