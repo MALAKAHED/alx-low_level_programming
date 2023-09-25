@@ -22,9 +22,7 @@ if (*head == NULL)
 return (new_node);
 }
 while (temp->next)
-{
 temp = temp->next;
 temp->next = new_node;
-}
 return (new_node);
 }
