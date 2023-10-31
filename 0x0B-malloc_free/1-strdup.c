@@ -27,5 +27,5 @@ for (i = 0; i < size; i++)
 str[i] = p[i];
 }
 free(p);
-return (*p);
+return (p);
 }
