@@ -11,8 +11,8 @@
 char *_strdup(char *str)
 {
 char *copy;
-int i, len = 0;
-copy = strdub(str);
+int len = 0;
+*copy = _strdub(*str);
 if (str == NULL)
 return (NULL);
 while (str[len] != '\0')
