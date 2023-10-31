@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 /**
  * create_array - function that creates an array of chars
  * @size: The size of the arr
@@ -13,9 +13,9 @@ unsigned int i;
 /*First Condition*/
 if (size == 0)
 {
-return(NULL);
+return (NULL);
 }
-*p = (char*)malloc(sizeof char * size);
+p = (char *)malloc(sizeof(char) * size);
 /*Second condition*/
 if (p == NULL)
 {
