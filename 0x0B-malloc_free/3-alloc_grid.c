@@ -17,14 +17,14 @@ if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
-arr = (int **)malloc(sizeof(int) * height);
+arr = (int **)malloc(sizeof(int *) * height);
 if (arr == NULL)
 {
 return (NULL);
 }
 for (x = 0; x < height; x++)
 {
-arr[x] = (int *)malloc(sizeof(int) * width);
+arr[x] = (int *)malloc(sizeof(int *) * width);
 if (arr[x] == NULL)
 {
 for (y = 0; y < x; y++)
