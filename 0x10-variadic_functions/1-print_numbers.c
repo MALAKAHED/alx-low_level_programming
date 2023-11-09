@@ -11,7 +11,7 @@ unsigned int i;
 va_start(numbers, n);
 for (i = 0; i < n; i++)
 {
-printf("%d\n", va_arg(numbers, int));
+printf("%d", va_arg(numbers, int));
 }
 if (separator == NULL)
 {
