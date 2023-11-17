@@ -1,4 +1,4 @@
-#include "lists.h"
+#include <stdio.h>
 void before_main(void)__attribute__ ((constructor));
 /*
  * _before_main - prints a sentence before the main
