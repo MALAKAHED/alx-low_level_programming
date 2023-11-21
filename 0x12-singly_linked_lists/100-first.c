@@ -1,7 +1,7 @@
 #include <stdio.h>
-void before_main(void)__attribute__ ((constructor));
+void first(void)__attribute__ ((constructor));
 /*
- * _before_main - prints a sentence before the main
+ * first - prints a sentence before the main
  * function is executed
 */
 void _before_main(void)
