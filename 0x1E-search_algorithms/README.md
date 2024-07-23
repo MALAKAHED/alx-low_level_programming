@@ -1,3 +1,3 @@
-### search_algorithms
+# search_algorithms
 
-# This is search algorithms task with C
+### This is search algorithms task with C
